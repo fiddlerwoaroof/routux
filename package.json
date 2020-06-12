@@ -52,7 +52,7 @@
     "flow-bin": "^0.126.1",
     "flow-typed": "^2.6.2",
     "fs-extra": "9.0.1",
-    "jest": "^24.8.0",
+    "jest": "^26.0.1",
     "jest-pnp-resolver": "1.2.1",
     "jest-resolve": "26.0.1",
     "jest-watch-typeahead": "^0.4.0",
