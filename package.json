@@ -42,7 +42,7 @@
     "enzyme-to-json": "^3.4.4",
     "eslint": "^7.4.0",
     "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react": "^7.21.4",
     "fs-extra": "9.0.1",
     "jest": "^26.1.0",
     "jest-pnp-resolver": "1.2.2",
