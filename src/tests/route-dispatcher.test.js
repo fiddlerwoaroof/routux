@@ -1,5 +1,5 @@
-import {createFakeWindow, createLocation} from "./test-utils";
-import {createRouteDispatcher} from "../route-dispatcher";
+import { createFakeWindow, createLocation } from "./test-utils";
+import { createRouteDispatcher } from "../route-dispatcher";
 
 const routesConfig = [
   ["/foo", "foo", {}],

@@ -292,9 +292,8 @@ function constructPath(match) {
 }
 
 function createActionDispatcher(routesConfig, _window = window) {
-  const { compiledActionMatchers, compiledRouteMatchers } = compileRoutes(
-    routesConfig
-  );
+  const { compiledActionMatchers, compiledRouteMatchers } =
+    compileRoutes(routesConfig);
 
   function pathForAction(action) {
     const match = matchAction(action, compiledActionMatchers);

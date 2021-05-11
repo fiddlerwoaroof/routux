@@ -1,5 +1,5 @@
 import * as R from "ramda";
-import {createActionDispatcher} from "./action-router";
+import { createActionDispatcher } from "./action-router";
 
 function routeToAction(route) {
   return R.omit(["routeName"], R.assoc("type", route.routeName, route));

@@ -1,12 +1,8 @@
 import React from "react";
 import Adapter from "enzyme-adapter-react-16";
 import { act } from "react-dom/test-utils";
-import {createRouteDispatcher} from "../route-dispatcher";
-import {
-  RouteLink,
-  RouteProvider,
-  withRoute,
-} from "../provider-api";
+import { createRouteDispatcher } from "../route-dispatcher";
+import { RouteLink, RouteProvider, withRoute } from "../provider-api";
 import { createFakeWindow, createLocation } from "./test-utils";
 import Enzyme, { mount } from "enzyme";
 

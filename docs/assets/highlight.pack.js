@@ -237,7 +237,8 @@ var hljs = (function () {
       contains: [h],
     },
     b = {
-      begin: /\b(a|an|the|are|I'm|isn't|don't|doesn't|won't|but|just|should|pretty|simply|enough|gonna|going|wtf|so|such|will|you|your|they|like|more)\b/,
+      begin:
+        /\b(a|an|the|are|I'm|isn't|don't|doesn't|won't|but|just|should|pretty|simply|enough|gonna|going|wtf|so|such|will|you|your|they|like|more)\b/,
     },
     m = function (e, n, t = {}) {
       var a = r({ className: "comment", begin: e, end: n, contains: [] }, t);
@@ -874,9 +875,7 @@ var hljs = (function () {
       if (p(t)) return;
       S("before:highlightBlock", { block: e, language: t }),
         f.useBR
-          ? ((n = document.createElement(
-              "div"
-            )).innerHTML = e.innerHTML
+          ? ((n = document.createElement("div")).innerHTML = e.innerHTML
               .replace(/\n/g, "")
               .replace(/<br[ /]*>/g, "\n"))
           : (n = e);

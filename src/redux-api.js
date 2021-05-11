@@ -17,9 +17,8 @@ function enhanceStoreFactory(actionDispatcher) {
 
       actionDispatcher.addActionListener(action => theStore.dispatch(action));
 
-      theStore.pathForAction = actionDispatcher.pathForAction.bind(
-        actionDispatcher
-      );
+      theStore.pathForAction =
+        actionDispatcher.pathForAction.bind(actionDispatcher);
 
       theStore.dispatch = middleware(theStore)(
         theStore.dispatch.bind(theStore)

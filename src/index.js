@@ -14,5 +14,5 @@ export {
   Fragment,
   ActionLink,
   createActionDispatcher,
-  createRouteDispatcher
+  createRouteDispatcher,
 };
